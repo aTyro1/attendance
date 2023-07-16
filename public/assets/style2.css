@@ -1,0 +1,18 @@
+body{
+ 		background-image: url("body.jpg");
+  	}
+  	#firstCol{
+  		border: 2px solid grey;
+    border-radius: 10px;
+    text-align: center;
+  	}
+  	table{
+  		border:2px solid #b2ebf2;
+  		border-radius: 20px;
+  		
+  	}
+  	#secondCol{
+  		border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+  	}

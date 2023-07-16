@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>want 75% attandence</title>
+  <link rel="stylesheet" type="text/css" href="/assets/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="/assets/style1.css">
+</head>
+<body>
+    <form method="POST" action="/updateMon">
+      <div class="mx-auto" style="width: 170px">
+         <input type="text" name="dateofclass" id="date" value="<%=d%>"/>
+       </div>
+       <br><br>
+      <div class="container ml-3 ">
+        <p><b>*Mark your attendance for the above date</b></p>
+      </div>
+    <div class="table-responsive">
+    <table class="table w-50 ml-5 mr-5 mt-2 mx-auto" >
+    <tr id="ds">
+        <td>DS</td>
+        <td><input type="radio" id="attend" class="rbtn" name="ds" value="attended"/><label for="attended">attended</label></td>
+        <td><input type="radio" id="notattend" name="ds" class="rbtn" value="notattended"/><label for="notattended">not attended</label></td>
+      </tr>
+      <tr id="co">
+        <td>CO</td>
+        <td><input type="radio" id="attend" name="co" class="rbtn" value="attended"/><label for="attended">attended</label></td>
+        <td><input type="radio" id="notattend" name="co" class="rbtn" value="notattended"/><label for="notattended">not attended</label></td>
+      </tr>
+       <tr id="dsl">
+        <td>DS-lab</td>
+        <td><input type="radio" id="attend" name="dsl1" class="rbtn" value="attended"/><label for="attended">attended</label></td>
+        <td><input type="radio" id="notattend" name="dsl1" class="rbtn" value="notattended"/><label for="notattended">not attended</label></td>
+      </tr>
+       <tr id="dsl">
+        <td>DS-lab</td>
+        <td><input type="radio" id="attend" name="dsl2" class="rbtn" value="attended"/><label for="attended">attended</label></td>
+        <td><input type="radio" id="notattend" name="dsl2" class="rbtn" value="notattended"/><label for="notattended">not attended</label></td>
+      </tr> 
+  </table>
+</div>
+  <div class="mx-auto mt-2" style="width:170px">
+  <button type="submit" id="btn">Proceed</button>
+</div>
+</form>
+</body>
+</html>

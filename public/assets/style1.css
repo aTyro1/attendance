@@ -1,0 +1,22 @@
+
+	@media only screen and (min-width: 992px) {
+		body{
+    	background-image: url("bo.jpg");
+	}
+	}
+	
+		*{
+			box-sizing: border-box;
+			color:#5f3c3c;
+		}
+		.info{
+    margin: 100px 100px 100px 100px;
+    border: 2px solid #0c0c0c;
+    border-radius: 22px;
+    box-shadow: 10px 10px black;
+		}	
+		#btn{
+			border:2px solid grey;
+			border-radius: 10px;
+		}
+		
